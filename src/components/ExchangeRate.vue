@@ -86,7 +86,7 @@ onMounted(async () => {
   overflow-x: hidden;
   margin: 0 auto;
   width: 1000px;
-  height: 700px;
+  height: 600px;
   background: #cecece;
   padding: 5px;
   border-radius: 15px;
