@@ -38,8 +38,8 @@ defineProps<{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0;
-  padding: 1rem;
+  margin: 10px 0;
+  padding: 4px 10px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -55,7 +55,7 @@ defineProps<{
 
 .item-list__container {
   display: flex;
-  gap: 1rem;
+  gap: 5px;
   width: 100%;
   max-width: 1000px;
   cursor: pointer;
@@ -68,7 +68,6 @@ defineProps<{
 .item-list__img img {
   width: 120px;
   height: 120px;
-
   border-radius: 8px;
 }
 
@@ -108,7 +107,7 @@ defineProps<{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 500;
   color: #333;
 }
@@ -121,11 +120,11 @@ defineProps<{
 .list-content__price img {
   width: 16px;
   height: 16px;
-  margin-right: 0.25rem;
+  margin-right: 5px;
 }
 
 .list-content__price span {
-  font-size: 0.9rem;
+  font-size: 17px;
   color: #777;
 }
 
